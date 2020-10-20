@@ -54,7 +54,7 @@ public class Magpie4
 			response = transformIWantToStatement(statement);
 		}
 		
-		else if (findKeyword(statement, "I want", 0) >= 0) {
+		else if (findKeyword(statement, "I want", 0) >= 0) { //won't trigger an "I want to" statement b/c this else if will only trigger if "I want to" is NOT found
 		   response = transformIWantStatement(statement); 
 		  }
 		  
