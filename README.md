@@ -1,1 +1,1 @@
-Magpie Lab for APCS A.
+Magpie Lab for AP CS A.
